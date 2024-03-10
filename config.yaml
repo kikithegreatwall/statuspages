@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status.hariyonorizki.eu.org' # used for Slack messages
+  url: 'https://kikiserverstatus.eu.org' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -24,8 +24,8 @@ monitors:
     linkable: true
 
   - id: baseserver
-    name: Server Status Runtime [status.hariyonorizki.eu.org]
-    url: 'https://status.hariyonorizki.eu.org'
+    name: Server Status Runtime [kikiserverstatus.eu.org]
+    url: 'https://kikiserverstatus.eu.org'
     method: GET
     expectStatus: 200
     followRedirect: false
